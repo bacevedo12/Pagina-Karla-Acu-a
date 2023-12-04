@@ -1,0 +1,63 @@
+
+.formulario {
+    background-image: url('../images/fondoInicioKarla.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    /* justify-content: center; */
+    margin: 0 !important;
+  
+    
+}
+
+.tituloContacto {
+  color:rgb(128, 70, 156) ;
+    font-size: x-large;
+    /* text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+		0 0 0.2em #87F; */
+}
+
+.contornoFormulario {
+  background-color:rgb(244, 221, 244);
+  /* border-color:darkblue; */
+}
+.btnContacto {
+  background-color:rgb(128, 70, 156) ;
+  color: aliceblue;
+}
+
+.mensaje {
+  width: 300px !important;
+}
+
+.fotoCirugia {
+ max-height: 100%;
+
+} 
+
+.divFoto {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.divLetras {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+
+.textoContacto {
+  color:antiquewhite;
+  text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
+}
+
+
+@media screen and (max-width:500px){
+  .descripcionMedico {
+      margin-left: 20px;
+  }
+}

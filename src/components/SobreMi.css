@@ -1,0 +1,44 @@
+.sobreMi {
+    /* background-image: url('../images/fondoSobreMi.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    justify-content: center;
+    margin: 0 !important; */
+    height: 1000px;
+    width: 100%;
+}
+
+.nombreDoctor {
+    /* text-shadow: -1px 0 black, 0 1px black,
+	  1px 0 black, 0 -1px black; */
+    text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;  
+}
+
+.estudios {
+    color: #070A52;
+}
+
+
+
+.imagenDoctor {
+    max-width: 250px;
+   
+}
+
+.tituloEstudios {
+    /* text-shadow: -1px 0 black, 0 1px black,
+    1px 0 black, 0 -1px black */
+    padding-top: 100px;
+    text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
+}
+
+.divider {
+   
+        height: 4px;
+        width: 30%;
+        background-color: #b64869;
+       
+    
+    }

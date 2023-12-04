@@ -1,0 +1,120 @@
+.containerMain{
+    background-image: url('../images/fondoInicioKarla.png');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center center;
+    background-size: cover;
+    justify-content: center;
+    margin: 0 !important;
+    width: 100%;
+    clip-path: polygon(0 0,100% 0,100% 100%,0 calc(100% - 50px));
+}
+
+.top {
+    clip-path: polygon(0 0,100% 0,100% 100%,0 calc(100% - 50px));
+  }
+  .bottom {
+    clip-path: polygon(0 0,100% 50px,100% 100%,0 100%);
+    margin-top: -40px;
+  }
+
+.imagenDoctor {
+    border-radius: 50%;
+}
+
+
+.imagenTratamiento {
+    border-radius: 30%;
+}
+.parrafoInicio {
+  /* padding-top: 30px; */
+  /* color:rgb(214, 152, 195); */
+  color:rgb(201, 199, 199);
+  font-size:5px;
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.fotoInicio {
+    max-width: 300px;
+
+}
+
+.tituloNombre {
+    color:rgb(128, 70, 156);
+    font-family:cursive;
+     text-shadow: 0 0 0.2em rgb(241, 235, 239),0 0 0.2em rgb(235, 236, 241);
+}
+
+.containerCarrousel {
+    /* background-image: url('../images/fondoInicioKarla.png');
+    background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    background-position: center center;
+    background-size: cover;
+    justify-content: center;
+    margin: 0 !important;
+    width: 100%;
+    clip-path: polygon(0 0,100% 50px,100% 100%,0 100%);
+    margin-top: -40px; 
+    background-color: rgb(250, 249, 238);
+}
+.imagenCarousel {
+     max-width: 100%;
+     max-height: 800px;
+}
+
+.tituloCarousel {
+    color:rgb(128, 70, 156);
+
+}
+
+.divider2  {
+    height: 4px;
+    width: 100%;
+    background-color: #eba6bb;
+
+}
+
+.parrafoCarrousel {
+    color:  #eba6bb;
+}
+.textoCarousel {
+    color:bisque;
+    text-shadow: 0 0 0.2em rgb(214, 59, 173), 0 0 0.2em rgb(214, 59, 173);
+  }
+
+.textoCarousel2 {
+    color:rgb(244, 218, 185)
+}
+
+.divFoto {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.divLetras {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+@media screen and (max-width:990px){
+   .descripcionMedico {
+       margin-left: 100px;
+   }
+}
+
+@media screen and (max-width:500px){
+    .descripcionMedico {
+        margin-left: 20px;
+    }
+
+    .botonLeerMas {
+        max-width: 30%;
+    }
+ }
+
+  

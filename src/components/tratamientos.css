@@ -1,0 +1,41 @@
+.img_tratamiento{
+    width:100%;
+    height: 200px;
+    margin-top: 20px;
+  }
+  
+ #Card {
+    background-color: rgb(250, 249, 238);
+
+ }
+  .cardTratamientos {
+    background-color:rgb(235, 219, 243);
+    border-color: rgb(128, 70, 156) ;
+  
+    /* background-color:rgb(201, 166, 219);  */
+  }
+
+  .titulo{
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+    background-color:rgb(128, 70, 156) ;
+    size: 15px;
+    color: white;
+  }
+
+  .desc{
+    font-family: 'Dancing Script', cursive;
+    font-size:large;
+    color: rgb(167, 171, 171);
+    
+  }
+.colorcard{
+    background-color:rgb(201, 166, 219);
+}
+
+.botonVer {
+  background-color: rgb(201, 166, 219);
+  border-color:rgb(128, 70, 156) ;
+  border-radius: 10px;
+  max-width: 50%;
+}

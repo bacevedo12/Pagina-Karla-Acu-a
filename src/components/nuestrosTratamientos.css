@@ -1,0 +1,26 @@
+.nuestrosTratamientos {
+    background-image: url('../images/fondoInicioKarla.png');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center center;
+    background-size: cover;
+    justify-content: center;
+    margin: 0 !important;
+    width: 100%;
+}
+
+.tituloTratamientos {
+    color:rgb(128, 70, 156) ;
+   
+}
+
+.tarjeta{
+    background-color: rgb(250, 249, 238);
+  }
+
+
+
+.tipoTratamientos {
+    color: rgb(159, 230, 235);
+   /* color:rgb(214, 152, 195); */
+}
